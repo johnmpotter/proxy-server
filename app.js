@@ -1,7 +1,7 @@
 'use strict';
 
-var logger = require('koa-logger');
 var koa = require('koa');
+var logger = require('koa-logger');
 var serve = require('koa-static');
 
 var app = koa();
